@@ -16,6 +16,7 @@ body {
 .navbar {
     background: rgba(187, 182, 204, 0.932);
     border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 4px 20px rgb(255, 255, 255);
 }
 
 
