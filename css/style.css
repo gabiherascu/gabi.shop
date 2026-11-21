@@ -24,3 +24,6 @@ main {
     index: 1000;
     backdrop-filter: blur(10px);
 }
+.container {
+    max-width: 1200px;
+}
