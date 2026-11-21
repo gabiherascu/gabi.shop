@@ -1,43 +1,16 @@
-header , main, section, article{
-    border: 2px dashed #7C3AED;
-    padding: 12px;
-    margin: 8px 0;
+/* style.css · aspectul magazinului PixelStore */
+/* 1. Resetul: ștergem spațiile puse automat de browser */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
-  section {border-color: hsl(204, 55%, 55%);}
-  article {border-color: hsla(69, 94%, 27%, 0.678);}
-
-.hero {
-    border-color:#7C3AED
-}
-.categories {
-    border-color: hsl(204, 55%, 55%);
-}
-.products {
-    border-color: hsla(69, 94%, 27%, 0.678);
+/* 2. Pagina */
+body {
+ font-family: "Segoe UI", Arial, sans-serif;
+ background: #0f0f1a;
+ color: #ffffff;
+ line-height: 1.6;
 }
 
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #7C3AED;
-    backdrop-filter: blur(10px);
-    border-bottom: 2px solid #7C3AED;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 16px;
-
-}
-
-.nav-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-
-}
